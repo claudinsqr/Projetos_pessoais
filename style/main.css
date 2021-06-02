@@ -1,0 +1,47 @@
+/*global =====*/
+:root {
+    --roxo:#724272;
+}
+
+body{
+    font: 20px 'Arial', sans-serif;
+}
+
+/*menu ===*/
+.navbar{
+    background-color: white
+}
+
+.navbar a{
+    color:var(--roxo)
+}
+
+.navbar a:hover{
+    color: #854DFF;
+}
+
+
+/*body*/
+h3, h4{
+    color:var(--roxo);
+    
+}
+
+p{
+    font-weight: 300;
+    text-align: center;
+    padding-top: 5em;
+}
+.margin{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+
+/*footer*/
+.bg-footer{
+    padding: 2rem;
+    background-color: #061551;
+    color: white;
+}
+
