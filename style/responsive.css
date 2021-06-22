@@ -4,18 +4,15 @@
 
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
-@media (min-width: 576px) {  }
+@media (max-width: 576px) {
+    .col-sm-6.reverse{
+        order: 2;
+    }
+  }
 
 /* Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    img{
-        display: flex;
-        flex-direction: column;
-    }
+    
   }
 
 /* Dispositivos large (desktops com 992px ou mais)*/
